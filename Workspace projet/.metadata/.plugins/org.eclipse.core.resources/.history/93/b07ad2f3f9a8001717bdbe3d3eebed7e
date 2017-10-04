@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<!--Rational Software Architect Designer 9.5-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Standard="http://www.eclipse.org/uml2/schemas/Standard/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/uml2/schemas/Standard/1 pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w">
+  <uml:Package xmi:id="_dqctD6j5Eee3a9D790FSmA" name="Package vierge">
+    <packageImport xmi:id="_dqctEKj5Eee3a9D790FSmA">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_dqctEaj5Eee3a9D790FSmA" name="joueur"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_dqctEqj5Eee3a9D790FSmA" name="StoneHearth" useCase="_dqctFqj5Eee3a9D790FSmA _dqctGaj5Eee3a9D790FSmA _dqctGqj5Eee3a9D790FSmA _dqctG6j5Eee3a9D790FSmA _dqctHaj5Eee3a9D790FSmA _dqctHqj5Eee3a9D790FSmA _dqctH6j5Eee3a9D790FSmA">
+      <ownedUseCase xmi:id="_dqctE6j5Eee3a9D790FSmA" name="UseCase1">
+        <extensionPoint xmi:id="_dqctFKj5Eee3a9D790FSmA" name="ExtensionPoint1"/>
+        <extensionPoint xmi:id="_dqctFaj5Eee3a9D790FSmA" name="ExtensionPoint2"/>
+      </ownedUseCase>
+      <ownedUseCase xmi:id="_dqctFqj5Eee3a9D790FSmA" name="Acceder à la collection" subject="_dqctEqj5Eee3a9D790FSmA">
+        <extensionPoint xmi:id="_dqctF6j5Eee3a9D790FSmA" name="ExtensionPoint1"/>
+        <extensionPoint xmi:id="_dqctGKj5Eee3a9D790FSmA" name="ExtensionPoint2"/>
+      </ownedUseCase>
+      <ownedUseCase xmi:id="_dqctGaj5Eee3a9D790FSmA" name="Acheter" subject="_dqctEqj5Eee3a9D790FSmA"/>
+      <ownedUseCase xmi:id="_dqctGqj5Eee3a9D790FSmA" name="Jouer une partie" subject="_dqctEqj5Eee3a9D790FSmA"/>
+      <ownedUseCase xmi:id="_dqctG6j5Eee3a9D790FSmA" name="Détruire carte" subject="_dqctEqj5Eee3a9D790FSmA">
+        <extend xmi:id="_dqctHKj5Eee3a9D790FSmA" extendedCase="_dqctFqj5Eee3a9D790FSmA" extensionLocation="_dqctGKj5Eee3a9D790FSmA"/>
+      </ownedUseCase>
+      <ownedUseCase xmi:id="_dqctHaj5Eee3a9D790FSmA" name="Créer un compte" subject="_dqctEqj5Eee3a9D790FSmA"/>
+      <ownedUseCase xmi:id="_dqctHqj5Eee3a9D790FSmA" name="S'authentifier" subject="_dqctEqj5Eee3a9D790FSmA"/>
+      <ownedUseCase xmi:id="_dqctH6j5Eee3a9D790FSmA" name="Composer un deck" subject="_dqctEqj5Eee3a9D790FSmA">
+        <extend xmi:id="_dqctIKj5Eee3a9D790FSmA" extendedCase="_dqctFqj5Eee3a9D790FSmA" extensionLocation="_dqctF6j5Eee3a9D790FSmA"/>
+      </ownedUseCase>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_dqctIaj5Eee3a9D790FSmA" memberEnd="_dqctIqj5Eee3a9D790FSmA _dqctJaj5Eee3a9D790FSmA" navigableOwnedEnd="_dqctIqj5Eee3a9D790FSmA _dqctJaj5Eee3a9D790FSmA">
+      <ownedEnd xmi:id="_dqctIqj5Eee3a9D790FSmA" name="composer son Deck" visibility="private" type="_dqctFqj5Eee3a9D790FSmA" association="_dqctIaj5Eee3a9D790FSmA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dqctI6j5Eee3a9D790FSmA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dqctJKj5Eee3a9D790FSmA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_dqctJaj5Eee3a9D790FSmA" name="joueur" visibility="private" type="_dqctEaj5Eee3a9D790FSmA" association="_dqctIaj5Eee3a9D790FSmA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dqctJqj5Eee3a9D790FSmA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dqctJ6j5Eee3a9D790FSmA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_dqctKKj5Eee3a9D790FSmA" memberEnd="_dqctKaj5Eee3a9D790FSmA _dqctLKj5Eee3a9D790FSmA" navigableOwnedEnd="_dqctKaj5Eee3a9D790FSmA _dqctLKj5Eee3a9D790FSmA">
+      <ownedEnd xmi:id="_dqctKaj5Eee3a9D790FSmA" name="jouer une partie" visibility="private" type="_dqctGqj5Eee3a9D790FSmA" association="_dqctKKj5Eee3a9D790FSmA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dqctKqj5Eee3a9D790FSmA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dqctK6j5Eee3a9D790FSmA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_dqctLKj5Eee3a9D790FSmA" name="joueur" visibility="private" type="_dqctEaj5Eee3a9D790FSmA" association="_dqctKKj5Eee3a9D790FSmA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dqctLaj5Eee3a9D790FSmA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dqctLqj5Eee3a9D790FSmA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_dqctL6j5Eee3a9D790FSmA" memberEnd="_dqctMKj5Eee3a9D790FSmA _dqctM6j5Eee3a9D790FSmA" navigableOwnedEnd="_dqctMKj5Eee3a9D790FSmA _dqctM6j5Eee3a9D790FSmA">
+      <ownedEnd xmi:id="_dqctMKj5Eee3a9D790FSmA" name="boutique" visibility="private" type="_dqctGaj5Eee3a9D790FSmA" association="_dqctL6j5Eee3a9D790FSmA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dqctMaj5Eee3a9D790FSmA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dqctMqj5Eee3a9D790FSmA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_dqctM6j5Eee3a9D790FSmA" name="joueur" visibility="private" type="_dqctEaj5Eee3a9D790FSmA" association="_dqctL6j5Eee3a9D790FSmA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dqctNKj5Eee3a9D790FSmA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dqctNaj5Eee3a9D790FSmA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_dqctNqj5Eee3a9D790FSmA" memberEnd="_dqctN6j5Eee3a9D790FSmA _dqctOqj5Eee3a9D790FSmA" navigableOwnedEnd="_dqctN6j5Eee3a9D790FSmA _dqctOqj5Eee3a9D790FSmA">
+      <ownedEnd xmi:id="_dqctN6j5Eee3a9D790FSmA" name="détruire carte" visibility="private" type="_dqctG6j5Eee3a9D790FSmA" association="_dqctNqj5Eee3a9D790FSmA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dqctOKj5Eee3a9D790FSmA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dqctOaj5Eee3a9D790FSmA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_dqctOqj5Eee3a9D790FSmA" name="joueur" visibility="private" type="_dqctEaj5Eee3a9D790FSmA" association="_dqctNqj5Eee3a9D790FSmA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dqctO6j5Eee3a9D790FSmA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dqctPKj5Eee3a9D790FSmA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_dqctPaj5Eee3a9D790FSmA" name="utilisateur">
+      <generalization xmi:id="_dqctPqj5Eee3a9D790FSmA" general="_dqctEaj5Eee3a9D790FSmA"/>
+      <generalization xmi:id="_dqctP6j5Eee3a9D790FSmA" general="_dqctEaj5Eee3a9D790FSmA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_dqctQKj5Eee3a9D790FSmA" memberEnd="_dqctQaj5Eee3a9D790FSmA _dqctRKj5Eee3a9D790FSmA" navigableOwnedEnd="_dqctQaj5Eee3a9D790FSmA _dqctRKj5Eee3a9D790FSmA">
+      <ownedEnd xmi:id="_dqctQaj5Eee3a9D790FSmA" name="s'authentifier" visibility="private" type="_dqctHqj5Eee3a9D790FSmA" association="_dqctQKj5Eee3a9D790FSmA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dqctQqj5Eee3a9D790FSmA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dqctQ6j5Eee3a9D790FSmA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_dqctRKj5Eee3a9D790FSmA" name="non joueur" visibility="private" type="_dqctPaj5Eee3a9D790FSmA" association="_dqctQKj5Eee3a9D790FSmA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dqctRaj5Eee3a9D790FSmA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dqctRqj5Eee3a9D790FSmA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_dqctR6j5Eee3a9D790FSmA" memberEnd="_dqctSKj5Eee3a9D790FSmA _dqctS6j5Eee3a9D790FSmA" navigableOwnedEnd="_dqctSKj5Eee3a9D790FSmA _dqctS6j5Eee3a9D790FSmA">
+      <ownedEnd xmi:id="_dqctSKj5Eee3a9D790FSmA" name="créer un compte" visibility="private" type="_dqctHaj5Eee3a9D790FSmA" association="_dqctR6j5Eee3a9D790FSmA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dqctSaj5Eee3a9D790FSmA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dqctSqj5Eee3a9D790FSmA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_dqctS6j5Eee3a9D790FSmA" name="non joueur" visibility="private" type="_dqctPaj5Eee3a9D790FSmA" association="_dqctR6j5Eee3a9D790FSmA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dqctTKj5Eee3a9D790FSmA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dqctTaj5Eee3a9D790FSmA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_dqctTqj5Eee3a9D790FSmA" memberEnd="_dqctT6j5Eee3a9D790FSmA _dqctUqj5Eee3a9D790FSmA" navigableOwnedEnd="_dqctT6j5Eee3a9D790FSmA _dqctUqj5Eee3a9D790FSmA">
+      <ownedEnd xmi:id="_dqctT6j5Eee3a9D790FSmA" name="s'authentifier" visibility="private" type="_dqctHqj5Eee3a9D790FSmA" association="_dqctTqj5Eee3a9D790FSmA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dqctUKj5Eee3a9D790FSmA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dqctUaj5Eee3a9D790FSmA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_dqctUqj5Eee3a9D790FSmA" name="joueur" visibility="private" type="_dqctPaj5Eee3a9D790FSmA" association="_dqctTqj5Eee3a9D790FSmA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dqctU6j5Eee3a9D790FSmA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dqctVKj5Eee3a9D790FSmA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_dqctVaj5Eee3a9D790FSmA" name="Joueur">
+      <ownedAttribute xmi:id="_dqctVqj5Eee3a9D790FSmA" name="Nom" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+    </packagedElement>
+    <profileApplication xmi:id="_dqctV6j5Eee3a9D790FSmA">
+      <eAnnotations xmi:id="_dqctWKj5Eee3a9D790FSmA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+    <profileApplication xmi:id="_dqctWaj5Eee3a9D790FSmA">
+      <eAnnotations xmi:id="_dqctWqj5Eee3a9D790FSmA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default?"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML2_MSL_PROFILES/Default.epx#_a_S3wNWLEdiy4IqP8whjFA?Default?"/>
+    </profileApplication>
+    <profileApplication xmi:id="_dqctW6j5Eee3a9D790FSmA">
+      <eAnnotations xmi:id="_dqctXKj5Eee3a9D790FSmA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_4OVBUD0TEeKt-L0gyEptgQ?Deployment/Deployment?"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_vjbuwOvHEdiDX5bji0iVSA?Deployment?"/>
+    </profileApplication>
+  </uml:Package>
+  <Standard:Subsystem xmi:id="_dqctXaj5Eee3a9D790FSmA" base_Component="_dqctEqj5Eee3a9D790FSmA"/>
+</xmi:XMI>
