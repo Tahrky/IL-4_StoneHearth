@@ -3,7 +3,7 @@
   <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.ibm.xtools.modeler.ui.editors.internal.ModelEditor&quot; name=&quot;Package vierge.emx&quot; tooltip=&quot;TME2/Package vierge.emx&quot;>&#xD;&#xA;&lt;persistable path=&quot;/TME2/Package vierge.emx&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;com.ibm.xtools.transform.ui.transformationConfigurationEditor&quot; name=&quot;Test.tc&quot; tooltip=&quot;/users/nfs/Etu5/3775245/Documents/IL - 4/Workspace TME1/eCours_BBOK/Test.tc&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/users/nfs/Etu5/3775245/Documents/IL%20-%204/Workspace%20TME1/eCours_BBOK/Test.tc&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;com.ibm.xtools.transform.ui.transformationConfigurationEditor&quot; name=&quot;TME1-2.tc&quot; tooltip=&quot;/users/nfs/Etu5/3775245/Documents/IL - 4/Workspace TME1/TME1-P2/TME1-2.tc&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/users/nfs/Etu5/3775245/Documents/IL%20-%204/Workspace%20TME1/TME1-P2/TME1-2.tc&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_-pr3gakFEeeX6vHxoj9loQ" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_-pr3gqkFEeeX6vHxoj9loQ" label="%trimmedwindow.label.eclipseSDK" x="0" y="27" width="962" height="1039">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_-pr3gakFEeeX6vHxoj9loQ" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_-pr3gqkFEeeX6vHxoj9loQ" label="%trimmedwindow.label.eclipseSDK" x="0" y="0" width="962" height="1039">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="workingSets" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workingSets/>"/>
@@ -172,7 +172,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_-pr5uKkFEeeX6vHxoj9loQ" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_Mo1Zh6kzEeeoEMadnm9DLw" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_-ptuoakFEeeX6vHxoj9loQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_XI2k4K0TEeemuY_XGGBt0w" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_-ptuoakFEeeX6vHxoj9loQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_-pr5xakFEeeX6vHxoj9loQ" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -199,7 +199,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_-psesqkFEeeX6vHxoj9loQ" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_Mo_KhakzEeeoEMadnm9DLw" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_-ptuVakFEeeX6vHxoj9loQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_XI3zAK0TEeemuY_XGGBt0w" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_-ptuVakFEeeX6vHxoj9loQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_-pse16kFEeeX6vHxoj9loQ" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
