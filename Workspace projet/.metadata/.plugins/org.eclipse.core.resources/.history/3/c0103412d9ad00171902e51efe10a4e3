@@ -1202,7 +1202,7 @@
       </ownedAttribute>
       <ownedAttribute xmi:id="_TXSF0K0VEeemuY_XGGBt0w" name="rangMoyen" visibility="private" type="_SsQlIKqfEee_FpPWITWvfQ"/>
       <ownedAttribute xmi:id="_ofcyYK0VEeemuY_XGGBt0w" name="nbTour" visibility="private" type="_SsQlIKqfEee_FpPWITWvfQ"/>
-      <ownedAttribute xmi:id="_rv4oYK0VEeemuY_XGGBt0w" name="gagnant" visibility="private" type="_yaGysKj5Eee3a9D790FSmA"/>
+      <ownedAttribute xmi:id="_rv4oYK0VEeemuY_XGGBt0w" name="status" visibility="private" type="_tNgc8K0VEeemuY_XGGBt0w"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_RtrqwK0VEeemuY_XGGBt0w" memberEnd="_Rts44K0VEeemuY_XGGBt0w _RtuHAK0VEeemuY_XGGBt0w"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_68GlwK3XEeeLZ5zQIoF5cQ" memberEnd="_68Glwa3XEeeLZ5zQIoF5cQ _68QWwq3XEeeLZ5zQIoF5cQ"/>
