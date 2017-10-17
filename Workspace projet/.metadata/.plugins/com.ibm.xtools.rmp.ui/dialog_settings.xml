@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<section name="Workbench">
-	<section name="Uml2ImportWizard">
-		<item value="/users/Etu5/3775245/Documents/IL - 4/Workspace projet/Package vierge.uml" key="umlSource"/>
-		<item value="/TME2" key="umlDestination"/>
-		<item value="true" key="umlRecreateIDs"/>
-		<item value="false" key="umlOpenImportedModels"/>
-	</section>
-</section>
