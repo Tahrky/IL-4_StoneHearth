@@ -751,19 +751,6 @@
           <children xmi:type="notation:SemanticListCompartment" xmi:id="_xRmPEa52EeefkKNmNPnEDw" visible="false" type="OperationCompartment"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xRkZ4a52EeefkKNmNPnEDw" x="2244" y="2376"/>
         </children>
-        <children xmi:type="umlnotation:UMLShape" xmi:id="_tm2d0LNnEeeQBO0_hOyMKQ" element="_tmgfkLNnEeeQBO0_hOyMKQ" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
-          <children xmi:type="notation:DecorationNode" xmi:id="_tm4TALNnEeeQBO0_hOyMKQ" type="ImageCompartment">
-            <layoutConstraint xmi:type="notation:Size" xmi:id="_tm4TAbNnEeeQBO0_hOyMKQ" width="1320" height="1320"/>
-          </children>
-          <children xmi:type="notation:BasicDecorationNode" xmi:id="_tm4TArNnEeeQBO0_hOyMKQ" type="Stereotype"/>
-          <children xmi:type="notation:BasicDecorationNode" xmi:id="_tm4TA7NnEeeQBO0_hOyMKQ" type="Name"/>
-          <children xmi:type="notation:BasicDecorationNode" xmi:id="_tm46ELNnEeeQBO0_hOyMKQ" type="Parent"/>
-          <children xmi:type="notation:SemanticListCompartment" xmi:id="_tm46EbNnEeeQBO0_hOyMKQ" type="AttributeCompartment"/>
-          <children xmi:type="notation:SemanticListCompartment" xmi:id="_tm5hILNnEeeQBO0_hOyMKQ" type="OperationCompartment"/>
-          <children xmi:type="notation:SemanticListCompartment" xmi:id="_tm5hIbNnEeeQBO0_hOyMKQ" visible="false" type="SignalCompartment"/>
-          <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_tm6vQLNnEeeQBO0_hOyMKQ" visible="false" type="StructureCompartment"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tm3E4LNnEeeQBO0_hOyMKQ" x="3148" y="9577" width="2748" height="2827"/>
-        </children>
         <element xsi:nil="true"/>
         <edges xmi:type="umlnotation:UMLConnector" xmi:id="_rZzVQK52EeefkKNmNPnEDw" element="_rZfzQK52EeefkKNmNPnEDw" source="_oVMUwK52EeefkKNmNPnEDw" target="_pzwkgK52EeefkKNmNPnEDw" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
           <children xmi:type="notation:DecorationNode" xmi:id="_rZ0jYK52EeefkKNmNPnEDw" type="NameLabel">
@@ -1339,7 +1326,6 @@
     <packagedElement xmi:type="uml:Association" xmi:id="_bkrkwK54EeefkKNmNPnEDw" memberEnd="_bktZ8K54EeefkKNmNPnEDw _bkvPIa54EeefkKNmNPnEDw"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_rRSAgK54EeefkKNmNPnEDw" memberEnd="_rRSnkK54EeefkKNmNPnEDw _rRTOoa54EeefkKNmNPnEDw"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_67KfcK54EeefkKNmNPnEDw" memberEnd="_67LGgK54EeefkKNmNPnEDw _67Ltkq54EeefkKNmNPnEDw"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_tmgfkLNnEeeQBO0_hOyMKQ" name="systeme"/>
     <profileApplication xmi:id="_dqctV6j5Eee3a9D790FSmA">
       <eAnnotations xmi:id="_dqctWKj5Eee3a9D790FSmA" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
