@@ -160,7 +160,7 @@
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1RxGoa57EeefkKNmNPnEDw" x="9742" y="8713"/>
             </children>
           </children>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1Atokaj5Eee3a9D790FSmA" x="8364" y="-369" width="13436" height="19652"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1Atokaj5Eee3a9D790FSmA" x="8052" y="264" width="13436" height="19652"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_paY-UKj8EeeX6vHxoj9loQ" type="Note" fontName="Cantarell" fontHeight="8" description="&lt;p>Une fois que l'utilisateur a créer un compte ça devient un joueur.&lt;/p>" fillColor="13956346" transparency="0" lineColor="12632258" lineWidth="1">
           <children xmi:type="notation:BasicDecorationNode" xmi:id="_paZlYKj8EeeX6vHxoj9loQ" type="DiagramName">
@@ -551,6 +551,46 @@
           </children>
           <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_tvXsMa57EeefkKNmNPnEDw" points="[-80, 5, 158, -4]$[-286, 17, -48, 8]"/>
         </edges>
+        <edges xmi:type="umlnotation:UMLConnector" xmi:id="_v7io0K57EeefkKNmNPnEDw" element="_v7bUEK57EeefkKNmNPnEDw" source="_rJf2IK57EeefkKNmNPnEDw" target="_yaM5UKj5Eee3a9D790FSmA" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+          <children xmi:type="notation:DecorationNode" xmi:id="_v7io0q57EeefkKNmNPnEDw" type="NameLabel">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_v7jP4K57EeefkKNmNPnEDw" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_v7jP4a57EeefkKNmNPnEDw" type="Name"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v7io0657EeefkKNmNPnEDw" y="-186"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_v7jP4q57EeefkKNmNPnEDw" visible="false" type="ToMultiplicityLabel" element="_v7flgK57EeefkKNmNPnEDw">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_v7jP5K57EeefkKNmNPnEDw" type="ToMultiplicity"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_v7jP4657EeefkKNmNPnEDw" y="396"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_v7jP5a57EeefkKNmNPnEDw" visible="false" type="ToRoleLabel" element="_v7flgK57EeefkKNmNPnEDw">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_v7jP5657EeefkKNmNPnEDw" type="ToRole"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_v7jP5q57EeefkKNmNPnEDw" y="-397"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_v7jP6K57EeefkKNmNPnEDw" visible="false" type="FromMultiplicityLabel" element="_v7ciMK57EeefkKNmNPnEDw">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_v7jP6q57EeefkKNmNPnEDw" type="FromMultiplicity"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_v7jP6a57EeefkKNmNPnEDw" y="396"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_v7jP6657EeefkKNmNPnEDw" visible="false" type="FromRoleLabel" element="_v7ciMK57EeefkKNmNPnEDw">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_v7jP7a57EeefkKNmNPnEDw" type="FromRole"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_v7jP7K57EeefkKNmNPnEDw" y="-397"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_v7jP7q57EeefkKNmNPnEDw" type="ToQualifierLabel" element="_v7flgK57EeefkKNmNPnEDw">
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_v7jP8K57EeefkKNmNPnEDw" type="QualifierCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_v7jP7657EeefkKNmNPnEDw" y="-186"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_v7j28K57EeefkKNmNPnEDw" type="FromQualifierLabel" element="_v7ciMK57EeefkKNmNPnEDw">
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_v7j28q57EeefkKNmNPnEDw" type="QualifierCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_v7j28a57EeefkKNmNPnEDw" y="-186"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_v7j28657EeefkKNmNPnEDw" type="ToConstraintLabel" element="_v7flgK57EeefkKNmNPnEDw">
+            <children xmi:type="notation:ListCompartment" xmi:id="_v7j29a57EeefkKNmNPnEDw" type="ToConstraintCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_v7j29K57EeefkKNmNPnEDw" y="1058"/>
+          </children>
+          <children xmi:type="notation:DecorationNode" xmi:id="_v7j29q57EeefkKNmNPnEDw" type="FromConstraintLabel" element="_v7ciMK57EeefkKNmNPnEDw">
+            <children xmi:type="notation:ListCompartment" xmi:id="_v7j2-K57EeefkKNmNPnEDw" type="FromConstraintCompartment"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_v7j29657EeefkKNmNPnEDw" y="1058"/>
+          </children>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_v7io0a57EeefkKNmNPnEDw" points="[-1322, -22, 14059, 11593]$[-12424, -22, 2957, 11593]$[-12424, -11916, 2957, -301]$[-14914, -11916, 467, -301]"/>
+        </edges>
         <edges xmi:type="umlnotation:UMLConnector" xmi:id="_3yBc4K57EeefkKNmNPnEDw" element="_3x46AK57EeefkKNmNPnEDw" source="_1RxGoK57EeefkKNmNPnEDw" target="_yaM5UKj5Eee3a9D790FSmA" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
           <children xmi:type="notation:DecorationNode" xmi:id="_3yCD8K57EeefkKNmNPnEDw" type="NameLabel">
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_3yCD8q57EeefkKNmNPnEDw" type="Stereotype"/>
@@ -630,15 +670,6 @@
             <layoutConstraint xmi:type="notation:Location" xmi:id="_7P1Aka57EeefkKNmNPnEDw" y="1058"/>
           </children>
           <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7P0Zca57EeefkKNmNPnEDw" points="[-1321, 26, 14203, 5437]$[-12859, 26, 2665, 5437]$[-12859, -5260, 2665, 151]$[-15069, -5260, 455, 151]"/>
-        </edges>
-        <edges xmi:type="umlnotation:UMLConnector" xmi:id="_qh8t8LNdEeeZuYmsTidZTQ" element="_qh5qoLNdEeeZuYmsTidZTQ" source="_rJf2IK57EeefkKNmNPnEDw" target="_X8o-8KkFEeeX6vHxoj9loQ" fontName=".SF NS Text" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
-          <children xmi:type="notation:DecorationNode" xmi:id="_qh8t8rNdEeeZuYmsTidZTQ" type="KindLabel">
-            <children xmi:type="notation:BasicDecorationNode" xmi:id="_qh9VALNdEeeZuYmsTidZTQ" type="Stereotype"/>
-            <children xmi:type="notation:BasicDecorationNode" xmi:id="_qh9VArNdEeeZuYmsTidZTQ" type="Kind"/>
-            <children xmi:type="notation:BasicDecorationNode" xmi:id="_qh9VAbNdEeeZuYmsTidZTQ" type="Name"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qh8t87NdEeeZuYmsTidZTQ" y="-124"/>
-          </children>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qh8t8bNdEeeZuYmsTidZTQ" points="[-1059, -309, 5922, 2331]$[-1059, -2308, 5922, 332]$[-6095, -2308, 886, 332]"/>
         </edges>
       </contents>
       <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_MAtukKj8EeeX6vHxoj9loQ" type="Class" name="DiagrammeClasse1">
@@ -1057,15 +1088,11 @@
       <ownedUseCase xmi:id="_BfEKMKj7EeeX6vHxoj9loQ" name="Jouer une partie" subject="_1AowEKj5Eee3a9D790FSmA"/>
       <ownedUseCase xmi:id="_DMTvIKj7EeeX6vHxoj9loQ" name="Acheter un emplacement de deck" subject="_1AowEKj5Eee3a9D790FSmA"/>
       <ownedUseCase xmi:id="_PakQMKkFEeeX6vHxoj9loQ" name="Acheter un pack" subject="_1AowEKj5Eee3a9D790FSmA"/>
-      <ownedUseCase xmi:id="_X8nw0KkFEeeX6vHxoj9loQ" name="Accéder aux options" subject="_1AowEKj5Eee3a9D790FSmA">
-        <extensionPoint xmi:id="_qh6RsLNdEeeZuYmsTidZTQ" name="ExtensionPoint1"/>
-      </ownedUseCase>
+      <ownedUseCase xmi:id="_X8nw0KkFEeeX6vHxoj9loQ" name="Accéder aux options" subject="_1AowEKj5Eee3a9D790FSmA"/>
       <ownedUseCase xmi:id="_KJ-D0KkGEeeX6vHxoj9loQ" name="Acheter une carte" subject="_1AowEKj5Eee3a9D790FSmA"/>
       <ownedUseCase xmi:id="_mLymAK57EeefkKNmNPnEDw" name="Composer un deck" subject="_1AowEKj5Eee3a9D790FSmA"/>
       <ownedUseCase xmi:id="_rJeoAK57EeefkKNmNPnEDw" name="Saisir coordonnées bancaires" subject="_1AowEKj5Eee3a9D790FSmA">
         <extend xmi:id="_tvVP8K57EeefkKNmNPnEDw" extendedCase="_8ER8gKj6EeeX6vHxoj9loQ" extensionLocation="_tvV3AK57EeefkKNmNPnEDw"/>
-        <extend xmi:id="_qh5qoLNdEeeZuYmsTidZTQ" extendedCase="_X8nw0KkFEeeX6vHxoj9loQ" extensionLocation="_qh6RsLNdEeeZuYmsTidZTQ"/>
-        <extensionPoint xmi:id="_mMOD0LNdEeeZuYmsTidZTQ" name="ExtensionPoint1"/>
       </ownedUseCase>
       <ownedUseCase xmi:id="_yuss8K57EeefkKNmNPnEDw" name="Détruire une carte" subject="_1AowEKj5Eee3a9D790FSmA"/>
       <ownedUseCase xmi:id="_1Rv4gK57EeefkKNmNPnEDw" name="Ouvrir un pack" subject="_1AowEKj5Eee3a9D790FSmA"/>
