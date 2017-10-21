@@ -1,12 +1,12 @@
-#Sat Oct 21 10:37:40 CEST 2017
+#Sat Oct 21 10:42:27 CEST 2017
 rulergrid.gridlinestyle=6
 print.margin.bottom=0.5
 print.margin.top=0.5
 print.page.height=11.6929134
+rulergrid.viewheaders=true
 print.usePortrait=true
-print.margin.left=0.5
 rulergrid.gridlinecolor=12632256
-viewport.x=0
+print.margin.left=0.5
 rulergrid.gridspacing=0.125
 rulergrid.rulerunit=1
 print.margin.right=0.5
