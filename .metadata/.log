@@ -4973,3 +4973,135 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+!SESSION 2017-10-18 13:59:59.268 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.8.0 IBM J9 2.8 Linux amd64-64 Compressed References 20150630_255633 (JIT enabled, AOT enabled)
+J9VM - R28_jvm.28_20150630_1742_B255633
+JIT  - tr.r14.java_20150625_95081.01
+GC   - R28_jvm.28_20150630_1742_B255633_CMPRSS
+J9CL - 20150630_255633
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.net 1 0 2017-10-18 14:00:32.448
+!MESSAGE System property http.proxyHost is not set but should be proxy.
+
+!ENTRY org.eclipse.core.net 1 0 2017-10-18 14:00:32.450
+!MESSAGE System property http.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.core.net 1 0 2017-10-18 14:00:32.451
+!MESSAGE System property https.proxyHost is not set but should be proxy.
+
+!ENTRY org.eclipse.core.net 1 0 2017-10-18 14:00:32.452
+!MESSAGE System property https.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.core.net 1 0 2017-10-18 14:00:32.454
+!MESSAGE System property https.proxyHost is not set but should be proxy.
+
+!ENTRY org.eclipse.core.net 1 0 2017-10-18 14:00:32.455
+!MESSAGE System property https.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.jface 2 0 2017-10-18 14:00:34.175
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-10-18 14:00:34.175
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(com.ibm.xtools.transform.ui.runLastExecutedCommand,Exécuter la dernière transformation,
+		,
+		Category(com.ibm.xtools.transform.ui.transformCategory,Transformations,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@370fcc17,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2762a0a7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-10-18 14:00:34.175
+!MESSAGE A conflict occurred for ALT+CTRL+C:
+Binding(ALT+CTRL+C,
+	ParameterizedCommand(Command(org.eclipse.datatools.sqltools.result.copyInstance,Copier le résultat,
+		,
+		Category(org.eclipse.datatools.sqltools.result.category,Vue des résultats SQL,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7ce14df0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+C,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.CommitCommand,Commit...,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@8fbcd937,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2017-10-21 10:14:39.548 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.8.0 IBM J9 2.8 Linux amd64-64 Compressed References 20150630_255633 (JIT enabled, AOT enabled)
+J9VM - R28_jvm.28_20150630_1742_B255633
+JIT  - tr.r14.java_20150625_95081.01
+GC   - R28_jvm.28_20150630_1742_B255633_CMPRSS
+J9CL - 20150630_255633
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.net 1 0 2017-10-21 10:15:23.024
+!MESSAGE System property http.proxyHost is not set but should be proxy.
+
+!ENTRY org.eclipse.core.net 1 0 2017-10-21 10:15:23.027
+!MESSAGE System property http.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.core.net 1 0 2017-10-21 10:15:23.028
+!MESSAGE System property https.proxyHost is not set but should be proxy.
+
+!ENTRY org.eclipse.core.net 1 0 2017-10-21 10:15:23.029
+!MESSAGE System property https.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.core.net 1 0 2017-10-21 10:15:23.030
+!MESSAGE System property https.proxyHost is not set but should be proxy.
+
+!ENTRY org.eclipse.core.net 1 0 2017-10-21 10:15:23.031
+!MESSAGE System property https.proxyPort is not set but should be 3128.
+
+!ENTRY org.eclipse.jface 2 0 2017-10-21 10:15:25.493
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-10-21 10:15:25.493
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(com.ibm.xtools.transform.ui.runLastExecutedCommand,Exécuter la dernière transformation,
+		,
+		Category(com.ibm.xtools.transform.ui.transformCategory,Transformations,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2c660308,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1bf1ef04,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-10-21 10:15:25.493
+!MESSAGE A conflict occurred for ALT+CTRL+C:
+Binding(ALT+CTRL+C,
+	ParameterizedCommand(Command(org.eclipse.datatools.sqltools.result.copyInstance,Copier le résultat,
+		,
+		Category(org.eclipse.datatools.sqltools.result.category,Vue des résultats SQL,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@321aa8c4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+C,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.CommitCommand,Commit...,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@df1d2bd6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)

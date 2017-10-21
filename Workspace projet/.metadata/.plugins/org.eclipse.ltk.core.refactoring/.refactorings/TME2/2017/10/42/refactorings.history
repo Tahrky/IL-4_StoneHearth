@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Renommer la ressource &apos;TME2/sequencediagram.dnx&apos; en &apos;achter un emplacement&apos;" description="Renommer la ressource &apos;sequencediagram.dnx&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="sequencediagram.dnx" name="achter un emplacement" stamp="1508265484654" updateReferences="true"/>
-</session>
