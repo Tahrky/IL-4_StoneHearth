@@ -1,4 +1,4 @@
-#Sat Oct 21 17:46:47 CEST 2017
+#Sat Oct 21 17:39:20 CEST 2017
 zoom=1.0
 print.margin.right=0.5
 rulergrid.rulerunit=1
@@ -16,4 +16,4 @@ rulergrid.gridlevel=true
 print.margin.top=0.5
 print.useMillim=true
 print.usePortrait=true
-viewport.y=0
+viewport.y=15
