@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Standard="http://www.eclipse.org/uml2/schemas/Standard/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/uml2/schemas/Standard/1 pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w">
+  <uml:Package xmi:id="_O7xSGqj5EeecesdW0BXWEw" name="Package vierge">
+    <packageImport xmi:id="_O7xSG6j5EeecesdW0BXWEw">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_O7xSHKj5EeecesdW0BXWEw" name="joueur"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_O7xSHaj5EeecesdW0BXWEw" name="StoneHearth" useCase="_O7xSIaj5EeecesdW0BXWEw _O7xSJKj5EeecesdW0BXWEw _O7xSJaj5EeecesdW0BXWEw _O7xSJqj5EeecesdW0BXWEw _O7xSKKj5EeecesdW0BXWEw _O7xSKaj5EeecesdW0BXWEw _O7xSKqj5EeecesdW0BXWEw">
+      <ownedUseCase xmi:id="_O7xSHqj5EeecesdW0BXWEw" name="UseCase1">
+        <extensionPoint xmi:id="_O7xSH6j5EeecesdW0BXWEw" name="ExtensionPoint1"/>
+        <extensionPoint xmi:id="_O7xSIKj5EeecesdW0BXWEw" name="ExtensionPoint2"/>
+      </ownedUseCase>
+      <ownedUseCase xmi:id="_O7xSIaj5EeecesdW0BXWEw" name="Acceder à la collection" subject="_O7xSHaj5EeecesdW0BXWEw">
+        <extensionPoint xmi:id="_O7xSIqj5EeecesdW0BXWEw" name="ExtensionPoint1"/>
+        <extensionPoint xmi:id="_O7xSI6j5EeecesdW0BXWEw" name="ExtensionPoint2"/>
+      </ownedUseCase>
+      <ownedUseCase xmi:id="_O7xSJKj5EeecesdW0BXWEw" name="Acheter" subject="_O7xSHaj5EeecesdW0BXWEw"/>
+      <ownedUseCase xmi:id="_O7xSJaj5EeecesdW0BXWEw" name="Jouer une partie" subject="_O7xSHaj5EeecesdW0BXWEw"/>
+      <ownedUseCase xmi:id="_O7xSJqj5EeecesdW0BXWEw" name="Détruire carte" subject="_O7xSHaj5EeecesdW0BXWEw">
+        <extend xmi:id="_O7xSJ6j5EeecesdW0BXWEw" extendedCase="_O7xSIaj5EeecesdW0BXWEw" extensionLocation="_O7xSI6j5EeecesdW0BXWEw"/>
+      </ownedUseCase>
+      <ownedUseCase xmi:id="_O7xSKKj5EeecesdW0BXWEw" name="Créer un compte" subject="_O7xSHaj5EeecesdW0BXWEw"/>
+      <ownedUseCase xmi:id="_O7xSKaj5EeecesdW0BXWEw" name="S'authentifier" subject="_O7xSHaj5EeecesdW0BXWEw"/>
+      <ownedUseCase xmi:id="_O7xSKqj5EeecesdW0BXWEw" name="Composer un deck" subject="_O7xSHaj5EeecesdW0BXWEw">
+        <extend xmi:id="_O7xSK6j5EeecesdW0BXWEw" extendedCase="_O7xSIaj5EeecesdW0BXWEw" extensionLocation="_O7xSIqj5EeecesdW0BXWEw"/>
+      </ownedUseCase>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_O7xSLKj5EeecesdW0BXWEw" memberEnd="_O7xSLaj5EeecesdW0BXWEw _O7xSMKj5EeecesdW0BXWEw" navigableOwnedEnd="_O7xSLaj5EeecesdW0BXWEw _O7xSMKj5EeecesdW0BXWEw">
+      <ownedEnd xmi:id="_O7xSLaj5EeecesdW0BXWEw" name="composer son Deck" visibility="private" type="_O7xSIaj5EeecesdW0BXWEw" association="_O7xSLKj5EeecesdW0BXWEw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_O7xSLqj5EeecesdW0BXWEw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_O7xSL6j5EeecesdW0BXWEw" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_O7xSMKj5EeecesdW0BXWEw" name="joueur" visibility="private" type="_O7xSHKj5EeecesdW0BXWEw" association="_O7xSLKj5EeecesdW0BXWEw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_O7xSMaj5EeecesdW0BXWEw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_O7xSMqj5EeecesdW0BXWEw" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_O7xSM6j5EeecesdW0BXWEw" memberEnd="_O7xSNKj5EeecesdW0BXWEw _O7xSN6j5EeecesdW0BXWEw" navigableOwnedEnd="_O7xSNKj5EeecesdW0BXWEw _O7xSN6j5EeecesdW0BXWEw">
+      <ownedEnd xmi:id="_O7xSNKj5EeecesdW0BXWEw" name="jouer une partie" visibility="private" type="_O7xSJaj5EeecesdW0BXWEw" association="_O7xSM6j5EeecesdW0BXWEw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_O7xSNaj5EeecesdW0BXWEw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_O7xSNqj5EeecesdW0BXWEw" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_O7xSN6j5EeecesdW0BXWEw" name="joueur" visibility="private" type="_O7xSHKj5EeecesdW0BXWEw" association="_O7xSM6j5EeecesdW0BXWEw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_O7xSOKj5EeecesdW0BXWEw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_O7xSOaj5EeecesdW0BXWEw" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_O7xSOqj5EeecesdW0BXWEw" memberEnd="_O7xSO6j5EeecesdW0BXWEw _O7xSPqj5EeecesdW0BXWEw" navigableOwnedEnd="_O7xSO6j5EeecesdW0BXWEw _O7xSPqj5EeecesdW0BXWEw">
+      <ownedEnd xmi:id="_O7xSO6j5EeecesdW0BXWEw" name="boutique" visibility="private" type="_O7xSJKj5EeecesdW0BXWEw" association="_O7xSOqj5EeecesdW0BXWEw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_O7xSPKj5EeecesdW0BXWEw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_O7xSPaj5EeecesdW0BXWEw" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_O7xSPqj5EeecesdW0BXWEw" name="joueur" visibility="private" type="_O7xSHKj5EeecesdW0BXWEw" association="_O7xSOqj5EeecesdW0BXWEw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_O7xSP6j5EeecesdW0BXWEw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_O7xSQKj5EeecesdW0BXWEw" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_O7xSQaj5EeecesdW0BXWEw" memberEnd="_O7xSQqj5EeecesdW0BXWEw _O7xSRaj5EeecesdW0BXWEw" navigableOwnedEnd="_O7xSQqj5EeecesdW0BXWEw _O7xSRaj5EeecesdW0BXWEw">
+      <ownedEnd xmi:id="_O7xSQqj5EeecesdW0BXWEw" name="détruire carte" visibility="private" type="_O7xSJqj5EeecesdW0BXWEw" association="_O7xSQaj5EeecesdW0BXWEw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_O7xSQ6j5EeecesdW0BXWEw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_O7xSRKj5EeecesdW0BXWEw" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_O7xSRaj5EeecesdW0BXWEw" name="joueur" visibility="private" type="_O7xSHKj5EeecesdW0BXWEw" association="_O7xSQaj5EeecesdW0BXWEw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_O7xSRqj5EeecesdW0BXWEw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_O7xSR6j5EeecesdW0BXWEw" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_O7xSSKj5EeecesdW0BXWEw" name="utilisateur">
+      <generalization xmi:id="_O7xSSaj5EeecesdW0BXWEw" general="_O7xSHKj5EeecesdW0BXWEw"/>
+      <generalization xmi:id="_O7xSSqj5EeecesdW0BXWEw" general="_O7xSHKj5EeecesdW0BXWEw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_O7xSS6j5EeecesdW0BXWEw" memberEnd="_O7xSTKj5EeecesdW0BXWEw _O7xST6j5EeecesdW0BXWEw" navigableOwnedEnd="_O7xSTKj5EeecesdW0BXWEw _O7xST6j5EeecesdW0BXWEw">
+      <ownedEnd xmi:id="_O7xSTKj5EeecesdW0BXWEw" name="s'authentifier" visibility="private" type="_O7xSKaj5EeecesdW0BXWEw" association="_O7xSS6j5EeecesdW0BXWEw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_O7xSTaj5EeecesdW0BXWEw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_O7xSTqj5EeecesdW0BXWEw" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_O7xST6j5EeecesdW0BXWEw" name="non joueur" visibility="private" type="_O7xSSKj5EeecesdW0BXWEw" association="_O7xSS6j5EeecesdW0BXWEw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_O7xSUKj5EeecesdW0BXWEw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_O7xSUaj5EeecesdW0BXWEw" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_O7xSUqj5EeecesdW0BXWEw" memberEnd="_O7xSU6j5EeecesdW0BXWEw _O7xSVqj5EeecesdW0BXWEw" navigableOwnedEnd="_O7xSU6j5EeecesdW0BXWEw _O7xSVqj5EeecesdW0BXWEw">
+      <ownedEnd xmi:id="_O7xSU6j5EeecesdW0BXWEw" name="créer un compte" visibility="private" type="_O7xSKKj5EeecesdW0BXWEw" association="_O7xSUqj5EeecesdW0BXWEw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_O7xSVKj5EeecesdW0BXWEw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_O7xSVaj5EeecesdW0BXWEw" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_O7xSVqj5EeecesdW0BXWEw" name="non joueur" visibility="private" type="_O7xSSKj5EeecesdW0BXWEw" association="_O7xSUqj5EeecesdW0BXWEw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_O7xSV6j5EeecesdW0BXWEw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_O7xSWKj5EeecesdW0BXWEw" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_O7xSWaj5EeecesdW0BXWEw" memberEnd="_O7xSWqj5EeecesdW0BXWEw _O7xSXaj5EeecesdW0BXWEw" navigableOwnedEnd="_O7xSWqj5EeecesdW0BXWEw _O7xSXaj5EeecesdW0BXWEw">
+      <ownedEnd xmi:id="_O7xSWqj5EeecesdW0BXWEw" name="s'authentifier" visibility="private" type="_O7xSKaj5EeecesdW0BXWEw" association="_O7xSWaj5EeecesdW0BXWEw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_O7xSW6j5EeecesdW0BXWEw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_O7xSXKj5EeecesdW0BXWEw" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_O7xSXaj5EeecesdW0BXWEw" name="joueur" visibility="private" type="_O7xSSKj5EeecesdW0BXWEw" association="_O7xSWaj5EeecesdW0BXWEw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_O7xSXqj5EeecesdW0BXWEw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_O7xSX6j5EeecesdW0BXWEw" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_O7xSYKj5EeecesdW0BXWEw" name="Joueur">
+      <ownedAttribute xmi:id="_O7xSYaj5EeecesdW0BXWEw" name="Nom" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+    </packagedElement>
+    <profileApplication xmi:id="_O7xSYqj5EeecesdW0BXWEw">
+      <eAnnotations xmi:id="_O7xSY6j5EeecesdW0BXWEw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Package>
+  <Standard:Subsystem xmi:id="_O7xSZKj5EeecesdW0BXWEw" base_Component="_O7xSHaj5EeecesdW0BXWEw"/>
+</xmi:XMI>
