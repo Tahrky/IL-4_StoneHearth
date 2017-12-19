@@ -17,6 +17,10 @@
 		</list>
 	</section>
 	<section name="NewWizardAction">
+		<item value="com.ibm.xtools.umlviz.ui.wizard.new.sequencediagramfile" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.gmf.runtime.emf.ui.modeling"/>
+		</list>
 	</section>
 	<section name="ImportExportAction">
 		<item value="com.ibm.xtools.modeler.ui.wizards.uml2importwizard" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
